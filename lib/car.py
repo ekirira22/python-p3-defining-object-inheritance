@@ -1,4 +1,9 @@
 from vehicle import Vehicle
 
 class Car(Vehicle):
-    pass
+    def go(self):
+        return "VRRROOOOOOOOOOOOOOOOOOOOOOOM!!!!!"
+
+
+mercedes = Car(48, 4)
+print(mercedes.go())
